@@ -93,8 +93,8 @@ O projeto implementa **observabilidade básica** com:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/chatbot-petlove-api.git
-   cd chatbot-petlove-api
+   git clone https://github.com/anakarlasantana/chatbot_ia_api.git
+   cd chatbot_ia_api
    ```
 
 2. Crie e ative o ambiente virtual:
