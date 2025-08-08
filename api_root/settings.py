@@ -149,6 +149,14 @@ LOGGING = {
     },
 }
 
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'PetLover API',
+    'DESCRIPTION': 'API para auxiliar nas vendas de produtos PetLover usando IA generativa.',
+    'VERSION': '1.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
+}
+
+
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 GEMINI_API_KEY = config("GEMINI_API_KEY")
