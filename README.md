@@ -100,9 +100,18 @@ O projeto implementa **observabilidade básica** com:
 2. Crie e ative o ambiente virtual:
    ```bash
    python -m venv venv
-   source venv/bin/activate  
+   - Linux / macOS:
+   source venv/bin/activate
+   - Windows
    venv\Scripts\activate     
    ```
+    *Importante:*
+    Em algumas máquinas, o PowerShell pode bloquear a execução de scripts por padrão.
+    Se receber um erro ao ativar, abra o PowerShell como administrador e execute:
+    ```bash
+    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+    ```
+    Depois tente ativar novamente.
 
 3. Instale as dependências:
    ```bash
